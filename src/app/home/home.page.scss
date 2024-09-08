@@ -1,0 +1,35 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px; /* Espaçamento no topo do card */
+  padding-bottom: 30px;
+  text-align: center;
+  max-width: 300px; /* Limita o tamanho do card */
+  margin: 100px auto; /* Centraliza o card na tela */
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Torna a imagem circular */
+  object-fit: cover; /* Ajusta a imagem dentro do círculo */
+  border: 2px solid #ccc;
+  margin-bottom: 8px; /* Espaçamento entre a foto e o nome */
+}
+
+ion-card-title, ion-card-subtitle {
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove padding padrão */
+}
+
+ion-card-subtitle {
+  color: #666; /* Cor mais suave para o código da turma */
+}
+
+ion-button {
+  margin-top: 15px; /* Espaçamento entre o botão e o conteúdo anterior */
+  --background: #333; /* Cor de fundo do botão (preto, cor do GitHub) */
+  --color: #fff; /* Cor do texto e ícone (branco) */
+}
